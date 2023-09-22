@@ -1,0 +1,159 @@
+body {
+    background-color: #02052b;
+    margin-left: 0px;
+}
+h1, h2 {
+    color: #22ae8a;
+    font-family: sans-serif;
+    font-weight: 500;
+    text-align: center;
+}
+.mainDiv {
+    position: fixed;
+    margin: 0px;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+ul {
+    list-style-type: none;
+    padding: 0px;
+    transform: translate(-285px, 0px);
+}
+li {
+    width: 330px;
+    background-color: #22ae8a;
+    padding: 12px 12px 12px 0px;
+    margin: 12px 0px 0px 0px;
+    border-radius: 0px 40px 40px 0px;
+    text-align: right;
+    transition: all 0.8s;
+    transition-timing-function: ease-out;
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    transition: all 0.8s;
+}
+i {
+    width: 15px;
+    height: 15px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    margin: 0px 0px 0px 15px;
+    transition: all 0.8s;
+}
+span {
+    color: #226fae;
+    opacity: 0;
+    transition: all 0.8s;
+}
+.liTwitt:hover {
+    background-color: #00acee;
+    transform: translate(125px, 0px);
+    transition: all 0.4s;
+    transition-timing-function: ease-out;
+}
+.liGit:hover {
+    background-color: #6e5494;
+    transform: translate(125px, 0px);
+    transition: all 0.4s;
+}
+.liLinked:hover {
+    background-color: #0e76a8;
+    transform: translate(125px, 0px);
+    transition: all 0.4s;
+}
+.liFB:hover {
+    background-color: #1778f2;
+    transform: translate(125px, 0px);
+    transition: all 0.4s;
+}
+.liInsta:hover {
+    background-color: #8a3ab9;
+    transform: translate(125px, 0px);
+    transition: all 0.4s;
+}
+.liTube:hover {
+    background-color: #c4302b;
+    transform: translate(125px, 0px);
+    transition: all 0.4s;
+}
+.liG:hover {
+    background-color: #db4a39;
+    transform: translate(125px, 0px);
+    transition: all 0.4s;
+}
+.liRss:hover {
+    background-color: #ee802f;
+    transform: translate(125px, 0px);
+    transition: all 0.4s;
+}
+.liDrib:hover {
+    background-color: #ea4c89;
+    transform: translate(125px, 0px);
+    transition: all 0.4s;
+}
+.liPint:hover {
+    background-color: #c8232c;
+    transform: translate(125px, 0px);
+    transition: all 0.4s;
+}
+li:hover .iTwitt {
+    background-color: white;
+    color: #00acee;
+}
+li:hover .iGit {
+    background-color: white;
+    color: #6e5494;
+}
+li:hover .iLinked {
+    background-color: white;
+    color: #0e76a8;
+}
+li:hover .iFB {
+    background-color: white;
+    color: #1779f2;
+}
+li:hover .iInsta {
+    background-color: white;
+    color: #8a3ab9;
+}
+li:hover .iTube {
+    background-color: white;
+    color: #c4302b;
+}
+li:hover .iG {
+    background-color: white;
+    color: #dc4a39;
+}
+li:hover .iRss {
+    background-color: white;
+    color: #ee802f;
+}
+li:hover .iDrib {
+    background-color: white;
+    color: #ea4c89;
+}
+li:hover .iPint {
+    background-color: white;
+    color: #c8232c;
+}
+li:hover i {
+    background-color: black;
+    color: white;
+    transform: rotate(360deg);
+    transition: all 0.6s;
+}
+li:hover span {
+    color: white;
+    opacity: 1;
+    transition: all 0.6s;
+}
+h1:hover {
+    color: white;
+}
